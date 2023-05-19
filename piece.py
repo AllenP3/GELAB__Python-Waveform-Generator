@@ -1,0 +1,48 @@
+import playfunction as pf
+
+
+def main():
+    pf.playNote("G3", "quarter", 120, "sine")
+    pf.playNote("G3", "quarter", 120, "sine")
+    pf.playNote("G3", "quarter", 120, "sine")
+    pf.playNote("D3#", "eighth_pointed", 120, "sine")
+    pf.playNote("A3#", "sixteenth", 120, "sine")
+    pf.playNote("G3", "quarter", 120, "sine")
+    pf.playNote("D3#", "eighth_pointed", 120, "sine")
+    pf.playNote("A3#", "sixteenth", 120, "sine")
+    pf.playNote("G3", "half", 120, "sine")
+    pf.playNote("D4", "quarter", 120, "sine")
+    pf.playNote("D4", "quarter", 120, "sine")
+    pf.playNote("D4", "quarter", 120, "sine")
+    pf.playNote("D4#", "eighth_pointed", 120, "sine")
+    pf.playNote("A3#", "sixteenth", 120, "sine")
+    pf.playNote("F3#", "quarter", 120, "sine")
+    pf.playNote("D3", "eighth_pointed", 120, "sine")
+    pf.playNote("A3#", "sixteenth", 120, "sine")
+    pf.playNote("G3", "half", 120, "sine")
+    pf.playNote("G4", "quarter", 120, "sine")
+    pf.playNote("G3", "eighth_pointed", 120, "sine")
+    pf.playNote("G3", "sixteenth", 120, "sine")
+    pf.playNote("G4", "quarter", 120, "sine")
+    pf.playNote("F4#", "eighth", 120, "sine")
+    pf.playNote("F4", "eighth", 120, "sine")
+    pf.playNote("E4", "quarter", 120, "sine")
+    pf.playNote("F3#", "quarter", 120, "sine")
+    pf.playNote("C4#", "quarter", 120, "sine")
+    pf.playNote("C4", "eighth_pointed", 120, "sine")
+    pf.playNote("B3", "sixteenth", 120, "sine")
+    pf.playNote("B3", "quarter", 120, "sine")
+    pf.playNote("D3#", "quarter", 120, "sine")
+    pf.playNote("F3#", "quarter", 120, "sine")
+    pf.playNote("E3", "eighth_pointed", 120, "sine")
+    pf.playNote("F3", "sixteenth", 120, "sine")
+    pf.playNote("A3#", "quarter", 120, "sine")
+    pf.playNote("G3", "eighth_pointed", 120, "sine")
+    pf.playNote("B3", "sixteenth", 120, "sine")
+    pf.playNote("D4", "half", 120, "sine")
+
+
+if __name__ == '_main_':
+    main()
+
+main()
